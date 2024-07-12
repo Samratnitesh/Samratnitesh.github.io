@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (width >= 800px) {
+    .info {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 0 80px;
+      max-width: 130ch;
+    }
+  }
